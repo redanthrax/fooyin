@@ -4,6 +4,7 @@ set(FOOYIN_KNOWN_PLUGINS
     alsa
     discord
     equaliser
+    externaldevices
     fileops
     filters
     gme
@@ -35,6 +36,7 @@ set(FOOYIN_KNOWN_PLUGINS
 set(FOOYIN_DEFAULT_PLUGINS
     discord
     equaliser
+    externaldevices
     fileops
     filters
     gme
@@ -105,6 +107,7 @@ endif()
 
 fooyin_add_selected_plugin(discord)
 fooyin_add_selected_plugin(equaliser)
+fooyin_add_selected_plugin(externaldevices)
 fooyin_add_selected_plugin(fileops)
 fooyin_add_selected_plugin(filters)
 fooyin_add_selected_plugin(gme)
